@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	file, err := os.Create("test001")
+	file, err := os.Create("test999")
 	if err != nil {
 		log.Fatal(err)
 	}
-	file.WriteString("test001")
+	file.WriteString("test999")
 	file.Close()
 }
